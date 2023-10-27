@@ -5,6 +5,9 @@ He helped me to think through the process for the first portion and I used that 
 
 I ran into some trouble calculating the Stock Total Volume. Using google, I shifted that variable to be a variant and the code worked.
 Dim Stock_Volume_Total As Variant
+I did the same for help to find how to format column J and found this line of code: 
+'Column Formatting
+ws.Range("J:J").NumberFormat = "0.00"
 
 Another tutor, Matthew Werth, assisted me in the last portion of the project, specifically this code:
 'Check "Greatest Increase" Values
